@@ -53,6 +53,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   text-decoration: none;
   color: var(--text-primary);
   background: var(--bg-card);
@@ -62,6 +63,8 @@
   box-shadow: 2px 2px 0px var(--border-color);
   transition: var(--transition-smooth);
   width: 154px;
+  height: 190px;
+  box-sizing: border-box;
   position: relative;
 }
 
@@ -79,7 +82,7 @@
 .qr-card-title {
   font-size: 0.84rem;
   font-weight: var(--font-weight-bold);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,9 +105,9 @@
 }
 
 .qr-card-hint {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   color: var(--text-secondary);
-  margin-top: 0.4rem;
+  margin-top: 0;
   text-align: center;
 }
 

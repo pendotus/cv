@@ -6,14 +6,33 @@
 
 ---
 
-## Контакты и портфолио
+## Контакты и портфолио / Contacts & Portfolio
 
-* 🌐 **Интерактивное резюме онлайн:** [pendotus.github.io/cv](https://pendotus.github.io/cv/)
-* 💼 **Сайт-портфолио:** [pendotus.github.io/Portfolio](https://pendotus.github.io/Portfolio/)
+* 🌐 **Интерактивное резюме онлайн / Online CV:** [pendotus.github.io/cv](https://pendotus.github.io/cv/) (EN: [pendotus.github.io/cv/en.html](https://pendotus.github.io/cv/en.html))
+* 💼 **Сайт-портфолио / Portfolio website:** [pendotus.github.io/Portfolio](https://pendotus.github.io/Portfolio/)
 * 🎨 **DProfile:** [dprofile.ru/pendotus](https://dprofile.ru/pendotus)
 * ✈️ **Telegram:** [@pendotus](https://t.me/pendotus)
 * 📧 **Email:** [yatsiv.mark@gmail.com](mailto:yatsiv.mark@gmail.com)
-* 📍 **Локация:** Россия, Санкт-Петербург
+* 📍 **Локация / Location:** Россия, Санкт-Петербург / Russia, St. Petersburg
+
+---
+
+## Опыт работы / Work Experience
+
+* **2021 – н. в. / 2021 – present** — Фрилансер, графический дизайнер / *Freelance Graphic Designer*
+  * Разрабатываю фирменный стиль для компаний / *Designing branding identity*
+  * Разрабатываю и подготавливаю печатную продукцию / *Developing printed materials*
+
+* **2025 – 2026** — Ведущий дизайнер, таксопарк «ТТТ» / *Art-director & Lead Designer, Taxi Company “TTT”*
+  * Разрабатывал дизайн цифровых носителей бренда / *Designed digital brand touchpoints*
+  * Разрабатывал дизайн физических носителей бренда / *Designed material brand applications*
+
+* **2024 – 2025** — Ведущий дизайнер, объединение фрилансеров / *Lead Designer, Freelancers Coalition*
+  * Вёл переговоры с клиентами от лица объединения / *Represented a freelancers coalition in client negotiations*
+  * Координировал задачи в группе дизайнеров / *Coordinated tasks between members in designers coalition*
+
+* **2023 – 2024** — Графический дизайнер, объединение фрилансеров / *Graphic Designer, Freelancers Coalition*
+  * Разрабатывал элементы фирменного стиля / *Designed key-visual and brand identity elements*
 
 ---
 
@@ -28,6 +47,6 @@
 ---
 
 ## Образование / Studies
-* **Санкт-Петербургский государственный университет промышленных технологий и дизайна**
+* **Санкт-Петербургский государственный университет промышленных технологий и дизайна** / *Saint Petersburg State University of Industrial Technologies and Design*
   * *2026–2028* — Магистратура: Прикладная информатика в дизайне / *Masters degree: Applied Computer Science in Design*
   * *2021–2025* — Бакалавриат: IT-технологии создания цифрового контента / *Bachelors degree: IT in Digital Content Creation*
