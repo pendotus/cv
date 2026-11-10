@@ -5,23 +5,23 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
   width: 100%;
 }
 
 .lang-switcher {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  padding: 0.35rem 0.75rem;
+  padding: 3px 4px;
   border-radius: 99px;
   box-shadow: 2px 2px 0px var(--border-color);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: var(--font-weight-bold);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   transition: var(--transition-smooth);
+  user-select: none;
 }
 
 .lang-switcher:hover {
@@ -30,26 +30,22 @@
   border-color: var(--accent-orange);
 }
 
-.lang-switcher a {
+.lang-btn {
+  padding: 4px 10px;
+  border-radius: 99px;
+  text-decoration: none;
   color: var(--text-secondary);
   transition: var(--transition-fast);
-  text-decoration: none;
+  display: inline-block;
 }
 
-.lang-switcher a:hover {
+.lang-btn:hover {
   color: var(--accent-orange);
 }
 
-.lang-switcher .is-active {
-  color: var(--text-primary);
-  background: var(--accent-orange-soft);
-  padding: 0.15rem 0.45rem;
-  border-radius: 99px;
-}
-
-.lang-divider {
-  color: var(--text-muted);
-  font-size: 0.8rem;
+.lang-btn.is-active {
+  background: var(--accent-orange);
+  color: #ffffff !important;
 }
 
 /* 1. Карточки-ссылки (Портфолио и DProfile) */
@@ -65,7 +61,7 @@
   border: 1px solid var(--border-color);
   box-shadow: 2px 2px 0px var(--border-color);
   transition: var(--transition-smooth);
-  width: 140px;
+  width: 154px;
   position: relative;
 }
 
@@ -81,12 +77,15 @@
 }
 
 .qr-card-title {
-  font-size: 0.9rem;
+  font-size: 0.84rem;
   font-weight: var(--font-weight-bold);
   margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
-  gap: 0.25rem;
+  justify-content: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .qr-card-title svg {

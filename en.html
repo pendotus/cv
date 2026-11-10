@@ -13,21 +13,21 @@
   <meta property="og:description" content="Resume and portfolio of graphic designer Mark Yatsiv.">
   <meta property="og:image" content="assets/images/photo.jpg">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ff5500'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='900' font-size='60' fill='%23ffffff'>Y</text></svg>">
+  <!-- Personal Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
   <!-- Preload Rubik font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
-  <!-- Modular CSS styles -->
-  <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/typography.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/print.css" media="print">
+  <!-- Modular CSS styles with cache busting -->
+  <link rel="stylesheet" href="css/variables.css?v=1.2">
+  <link rel="stylesheet" href="css/reset.css?v=1.2">
+  <link rel="stylesheet" href="css/typography.css?v=1.2">
+  <link rel="stylesheet" href="css/layout.css?v=1.2">
+  <link rel="stylesheet" href="css/components.css?v=1.2">
+  <link rel="stylesheet" href="css/print.css?v=1.2" media="print">
 </head>
 <body>
   <div class="page-wrapper">
@@ -36,9 +36,8 @@
       <!-- LANGUAGE SWITCHER -->
       <nav class="top-nav-bar" aria-label="Language switcher">
         <div class="lang-switcher">
-          <a href="index.html" title="Переключить на русскую версию">RU</a>
-          <span class="lang-divider">/</span>
-          <span class="is-active">EN</span>
+          <a href="index.html" class="lang-btn" title="Переключить на русскую версию">RU</a>
+          <span class="lang-btn is-active">EN</span>
         </div>
       </nav>
       
@@ -63,7 +62,7 @@
             <span class="qr-card-hint">portfolio site</span>
           </a>
 
-          <!-- DProfile -->
+          <!-- DProfile (Fixed in single line) -->
           <a href="https://dprofile.ru/pendotus" target="_blank" rel="noopener noreferrer" class="qr-card" title="Open DProfile profile">
             <span class="qr-card-title">
               me on DProfile
@@ -133,12 +132,11 @@
         <!-- LEFT COLUMN: About me | Software | Languages -->
         <div class="col-left">
           
-          <!-- About me -->
+          <!-- About me (single natural paragraph) -->
           <section class="section-block">
             <h2 class="section-title">about me</h2>
             <p class="text-lead">
-              graphic designer focused on brand identity, digital graphics and visual storytelling<br>
-              experienced in projects ranging from leather workshops to esports tournaments
+              graphic designer focused on brand identity, digital graphics and visual storytelling. experienced in projects ranging from leather workshops to esports tournaments
             </p>
           </section>
 
