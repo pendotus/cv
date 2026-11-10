@@ -1,0 +1,53 @@
+/* Спецификация печати в PDF (A4 1-в-1) */
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm 12mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .page-wrapper {
+    padding: 0 !important;
+    min-height: auto !important;
+  }
+
+  .cv-canvas {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .floating-actions,
+  .toast-notice,
+  .copy-btn {
+    display: none !important;
+  }
+
+  .qr-card {
+    box-shadow: none !important;
+    border: 1px solid #000000 !important;
+  }
+
+  .hero-name {
+    text-shadow: 2px 2px 0px #ff5500 !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: #000000 !important;
+  }
+
+  /* Запрет разрыва страниц внутри блоков */
+  .timeline-item,
+  .header-grid,
+  .hero-title-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

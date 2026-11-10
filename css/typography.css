@@ -1,0 +1,63 @@
+/* Типографическая система на базе шрифта Rubik */
+
+.hero-subtitle {
+  font-size: clamp(1.4rem, 2.8vw, 2.25rem);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.hero-name {
+  font-size: clamp(3rem, 7.8vw, 6.2rem);
+  font-weight: var(--font-weight-black);
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+  text-shadow: 
+    2px 2px 0px var(--accent-orange),
+    4px 4px 0px var(--accent-orange),
+    5px 5px 0px var(--accent-orange);
+  margin-bottom: 2rem;
+  user-select: text;
+  word-break: keep-all;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-bold);
+  text-transform: lowercase;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 0.85rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-primary);
+  margin-top: 4px;
+}
+
+.text-lead {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+  font-weight: var(--font-weight-regular);
+}
+
+.text-meta {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-bold {
+  font-weight: var(--font-weight-bold);
+}
