@@ -32,6 +32,15 @@
 <body>
   <div class="page-wrapper">
     <main class="cv-canvas">
+
+      <!-- ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКОВ -->
+      <nav class="top-nav-bar" aria-label="Языковая версия">
+        <div class="lang-switcher">
+          <span class="is-active">RU</span>
+          <span class="lang-divider">/</span>
+          <a href="en.html" title="Switch to English version">EN</a>
+        </div>
+      </nav>
       
       <!-- ВЕРХНЯЯ СЕКЦИЯ: Фото | Карточки ссылок (Портфолио, DProfile) | Контакты -->
       <header class="header-grid">
@@ -229,12 +238,16 @@
     </main>
   </div>
 
-  <!-- Плавающая кнопка для печати / сохранения PDF -->
+  <!-- Плавающие действия (Переключение на английский + Скачивание A4 PDF) -->
   <aside class="floating-actions" aria-label="Быстрые действия">
-    <button type="button" class="action-btn" id="printBtn" title="Распечатать или сохранить в PDF (A4)">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-      <span>Печать / Сохранить в PDF</span>
-    </button>
+    <a href="en.html" class="action-btn" title="English version">
+      <span>English</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width: 14px; height: 14px;"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+    <a href="assets/pdf/resume-ru.pdf" target="_blank" download="Mark_Yatsiv_Resume_RU.pdf" class="action-btn" id="downloadPdfBtn" title="Скачать оригинальный файл PDF (A4)">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      <span>Скачать PDF (A4)</span>
+    </a>
   </aside>
 
   <!-- Всплывающее уведомление о копировании -->

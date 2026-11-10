@@ -1,64 +1,33 @@
-# Резюме — Марк Яцив (Графический Дизайнер)
+# Марк Яцив — Графический Дизайнер
+**Mark Yatsiv — Graphic Designer**
 
-> Интерактивный веб-лендинг резюме графического дизайнера Марка Яцива.
-
-- 🌐 **Портфолио:** [pendotus.github.io/Portfolio](https://pendotus.github.io/Portfolio/)
-- 🎨 **DProfile:** [dprofile.ru/pendotus](https://dprofile.ru/pendotus)
-- ✈️ **Telegram:** [@pendotus](https://t.me/pendotus)
+> Специализируюсь на брендинге, айдентике и экранной графике. Создаю визуальные решения для брендов разного масштаба: от кожевенного производства до масштабных киберспортивных событий и турниров.  
+> *Graphic designer focused on brand identity, digital graphics and visual storytelling. Experienced in projects ranging from leather workshops to esports tournaments.*
 
 ---
 
-## Особенности реализации
+## Контакты и портфолио
 
-* **Стиль и эстетика:** Полное сохранение авторского графического стиля оригинального резюме (плакатная швейцарская сетка, тёплый бумажный фон `#fffcf5`, нео-бруталистская 3D-типографика).
-* **Шрифт:** **Rubik** (Google Fonts + локальные оптимизации).
-* **Zero-Dependency:** Чистый семантический HTML5, модульный CSS3 (Custom Properties) и ванильный JavaScript (ES-модули). Не требует сборщиков (Node.js/npm) и мгновенно открывается в любом браузере.
-* **Интерактивность:** 
-  * Интерактивные карточки DProfile и Портфолио с векторными QR-кодами и ссылками прямого перехода.
-  * Быстрое копирование контактов (Email, телефон) в буфер обмена в 1 клик с тултипом.
-* **Печать и экспорт в PDF:** Встроенная спецификация `@media print` — при нажатии `Ctrl + P` или клике по плавающей кнопке формируется идеальный одностраничный лист А4.
-
----
-
-## Архитектура проекта
-
-```text
-cv-site/
-├── index.html                   # Семантическая разметка (OpenGraph, Schema.org, a11y)
-├── assets/
-│   └── images/
-│       ├── photo.jpg            # Портрет
-│       ├── qr-portfolio.svg     # QR-код на портфолио
-│       └── qr-dprofile.svg      # QR-код на DProfile
-├── css/
-│   ├── variables.css            # Дизайн-токены (цвета, шрифты Rubik, отступы, тени)
-│   ├── reset.css                # Нормализация стилей
-│   ├── typography.css           # Шрифтовая система на Rubik и 3D-тень
-│   ├── layout.css               # Сетка плаката (CSS Grid & Flexbox)
-│   ├── components.css           # Карточки, бейджи, списки, тултипы
-│   └── print.css                # Оптимизация под печать в PDF (A4)
-└── js/
-    ├── modules/
-    │   └── clipboard.js         # Модуль копирования контактов с тултипом
-    └── main.js                  # Точка входа скриптов
-```
+* 🌐 **Интерактивное резюме онлайн:** [pendotus.github.io/cv](https://pendotus.github.io/cv/)
+* 💼 **Сайт-портфолио:** [pendotus.github.io/Portfolio](https://pendotus.github.io/Portfolio/)
+* 🎨 **DProfile:** [dprofile.ru/pendotus](https://dprofile.ru/pendotus)
+* ✈️ **Telegram:** [@pendotus](https://t.me/pendotus)
+* 📧 **Email:** [yatsiv.mark@gmail.com](mailto:yatsiv.mark@gmail.com)
+* 📍 **Локация:** Россия, Санкт-Петербург
 
 ---
 
-## Локальный запуск
-
-1. **Вариант 1:** Просто дважды кликните по файлу `index.html` в проводнике.
-2. **Вариант 2 (локальный сервер на Python):**
-   ```bash
-   python -m http.server 8000
-   ```
-   и откройте [http://localhost:8000](http://localhost:8000) в браузере.
+## Стек / Software
+* Adobe Illustrator
+* Adobe InDesign
+* Adobe After Effects
+* Adobe Premiere Pro
+* Adobe Photoshop
+* Figma
 
 ---
 
-## Публикация на GitHub Pages
-
-1. Запушьте проект в репозиторий на GitHub.
-2. Перейдите в **Settings** репозитория → раздел **Pages**.
-3. В пункте **Build and deployment** выберите Source: `Deploy from a branch`, ветка `main` / `root`.
-4. Нажмите **Save**. Через 1–2 минуты сайт станет доступен онлайн!
+## Образование / Studies
+* **Санкт-Петербургский государственный университет промышленных технологий и дизайна**
+  * *2026–2028* — Магистратура: Прикладная информатика в дизайне / *Masters degree: Applied Computer Science in Design*
+  * *2021–2025* — Бакалавриат: IT-технологии создания цифрового контента / *Bachelors degree: IT in Digital Content Creation*

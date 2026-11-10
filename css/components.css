@@ -1,5 +1,57 @@
 /* Модульные компоненты интерфейса */
 
+/* 0. Верхняя панель навигации и переключатель языков */
+.top-nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  width: 100%;
+}
+
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.75rem;
+  border-radius: 99px;
+  box-shadow: 2px 2px 0px var(--border-color);
+  font-size: 0.85rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.04em;
+  transition: var(--transition-smooth);
+}
+
+.lang-switcher:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--accent-orange);
+  border-color: var(--accent-orange);
+}
+
+.lang-switcher a {
+  color: var(--text-secondary);
+  transition: var(--transition-fast);
+  text-decoration: none;
+}
+
+.lang-switcher a:hover {
+  color: var(--accent-orange);
+}
+
+.lang-switcher .is-active {
+  color: var(--text-primary);
+  background: var(--accent-orange-soft);
+  padding: 0.15rem 0.45rem;
+  border-radius: 99px;
+}
+
+.lang-divider {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 /* 1. Карточки-ссылки (Портфолио и DProfile) */
 .qr-card {
   display: flex;
